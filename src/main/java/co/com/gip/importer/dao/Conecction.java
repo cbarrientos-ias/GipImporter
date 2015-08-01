@@ -115,7 +115,7 @@ public class Conecction {
         }
 
 
-        FileOutputStream fileOut = new FileOutputStream("workbook10.xls");
+        FileOutputStream fileOut = new FileOutputStream("contactosBase.xls");
         wb.write(fileOut);
         fileOut.close();
     }
